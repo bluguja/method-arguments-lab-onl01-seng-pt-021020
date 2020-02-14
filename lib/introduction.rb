@@ -1,4 +1,9 @@
-def introduction(name, language)
-  puts "Hello my name is #{name} ! and i love the #{language} language!"
+def greeting_programmer(name, language)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
 end
-  introduction ("Bala", "J.script")
+ 
+greeting_programmer("Sophie", "Ruby")
+# > Hello, Sophie. We heard you are a great Ruby programmer.
+ 
+greeting_programmer("Steven", "Elixir")
+# > Hello, Steven. We heard you are a great Elixir programmer.
