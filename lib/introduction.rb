@@ -1,6 +1,7 @@
 def introduction(name)
-  puts "Hello, #{name}. We heard you are a great programmer."
+  puts "Hi,my name is #{name}. "
 end
  
-greeting_programmer("Sophie")
+introduction("Sophie")
+
 
