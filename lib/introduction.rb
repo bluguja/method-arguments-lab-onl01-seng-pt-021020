@@ -3,7 +3,4 @@ def greeting_programmer(name, language)
 end
  
 greeting_programmer("Sophie", "Ruby")
-# > Hello, Sophie. We heard you are a great Ruby programmer.
- 
-greeting_programmer("Steven", "Elixir")
-# > Hello, Steven. We heard you are a great Elixir programmer.
+
